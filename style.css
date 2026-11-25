@@ -1,0 +1,36 @@
+body{
+    background: #f8f7ca;
+}
+
+.estrutura-calcu {
+    display: block;
+    margin:150px 400px;
+    background: #362828;
+    justify-content: center;
+    height: 650px;
+    border-radius: 30px;
+}
+
+.estrutura-calcu h1 {
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: 47px;
+}
+
+.numeros {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin: 15px;
+}
+
+.numeros input {
+    height: 70px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.botoes {
+    display: flex;
+}
